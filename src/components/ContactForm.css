@@ -1,0 +1,133 @@
+.total-container {
+    background-color: #C3C5C7;
+    margin-top: -80px;
+}
+
+.tittle-container {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+/* b u t t o n */
+.contact-form input[type="submit"] {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    width: 100%;
+    padding: 20px;
+    background-color: #424446;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #1d1e1f;
+}
+
+/* e n d   b u t t o n */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.working-hours {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.working-hours p {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        display: block;
+    }
+
+    .working-hours {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .contact-form {
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.success-message {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: #424446;
+    color: #929139;
+    padding: 10px 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    animation: fadeInOut 0.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

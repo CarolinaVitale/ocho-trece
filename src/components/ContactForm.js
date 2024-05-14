@@ -23,8 +23,8 @@ export const ContactUs = () => {
 
         emailjs
             .sendForm(
-                'service_6210qxq',
-                'template_1orrt39',
+                'service_5iscspg',
+                'template_15xd0mp',
                 e.target, {
                 publicKey:
                     'x91JMh1N52GJBjivZ',

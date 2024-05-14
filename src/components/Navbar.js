@@ -48,7 +48,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-                        {/* <li className='nav-item'>
+                        <li className='nav-item'>
                             <Link
                                 to='/menu'
                                 className='nav-links'
@@ -56,8 +56,7 @@ function Navbar() {
                             >
                                 menu
                             </Link>
-                        </li> */}
-                        
+                        </li>
                         <li className='nav-item'>
                             <Link
                                 to='/about'

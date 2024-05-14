@@ -34,11 +34,11 @@ nugget gold #CB952B
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-family: "Le Jeune Stencil";
+    font-family: "Futura";
     max-width: 90vw;
     letter-spacing: 0.1em;
     color: #C3C5C7;
-    font-size: 110px;
+    font-size: 80px;
     animation: animation 5s infinite linear;
     text-shadow:
         3px 3px 5px rgba(0, 0, 0, 0.5),
@@ -49,7 +49,7 @@ nugget gold #CB952B
     margin-top: -10%;
     margin-bottom: -5%;
     padding: 10%;
-    background-color: #424446;
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -57,7 +57,7 @@ nugget gold #CB952B
         margin-top: 0;
         margin-bottom: 0;
         padding: 10%;
-        background-color: #424446;
+        background-color: white;
     }
 
     .menu-coming {

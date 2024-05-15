@@ -3,12 +3,13 @@
     margin-top: -80px;
 }
 
-.tittle-container {
-    font-family: "Futura";
+.tittle-container h1 {
+    font-family: "Le Jeune Stencil";
     letter-spacing: 0.1em;
     justify-content: center;
     text-align: center;
     padding-top: 90px;
+    font-size: 50px;
 }
 
 .contact-form {
@@ -28,6 +29,10 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.contact-container h2 {
+    font-family: "Le Jeune Stencil";
 }
 
 .contact-form input[type="text"],
@@ -111,6 +116,7 @@
         position: 0;
     }
 }
+
 /*    m o b i l e   */
 
 

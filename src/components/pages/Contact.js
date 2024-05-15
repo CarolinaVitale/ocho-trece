@@ -10,7 +10,6 @@ function Contact() {
         <>
             <Header tittle='contact' image={pic} />
             <ContactInfo />
-
             <ContactForm />
             <Direction />
         </>

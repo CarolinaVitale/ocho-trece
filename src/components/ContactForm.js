@@ -23,11 +23,11 @@ export const ContactUs = () => {
 
         emailjs
             .sendForm(
-                'service_5iscspg',
-                'template_15xd0mp',
+                'service_1e3wyxq',
+                'template_c9d56ir',
                 e.target, {
                 publicKey:
-                    'x91JMh1N52GJBjivZ',
+                    'IBMUF5E22fPm9zQxz',
             })
             .then(
                 () => {

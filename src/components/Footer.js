@@ -28,7 +28,7 @@ function Footer() {
                             <img className='logo' src={logo} alt='logo' />
                         </Link>
                     </div>
-                    {/* <small className='website-rights'>ocho trece © 2024 |
+                    <small className='website-rights'>ocho trece © 2024  </small> {/* |
                         <Link className='info-privacy' to='/terms-conditions' target='_blank'> terms & conditions
                         </Link> |
                         <Link className='info-privacy' to='/privacy' target='_blank'> privacy
@@ -80,6 +80,14 @@ function Footer() {
                     </div>
                 </div>
             </section>
+            
+            <div className='created'>
+                <small className='created-by'> website by
+                    <Link to='https://carolavitale.com/' target='_blank'> carola vitale
+                    </Link>
+                </small>
+            </div>
+           
 
         </div>
     );

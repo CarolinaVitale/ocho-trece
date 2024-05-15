@@ -84,6 +84,7 @@
     padding-bottom: 3px;
 }
 
+/*    m o b i l e   */
 @media (max-width: 768px) {
     .contact-container {
         display: block;
@@ -100,22 +101,33 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .success-message {
+        top: 50px;
+        font-size: 20px;
+        width: 100%;
+        right: 0;
+        left: 0;
+        position: 0;
+    }
 }
+/*    m o b i l e   */
+
 
 .success-message {
     font-family: "Futura";
     letter-spacing: 0.1em;
     font-weight: bolder;
     position: fixed;
-    top: 100px;
-    right: 20px;
+    top: 200px;
+    right: 50px;
     background-color: #424446;
-    color: #929139;
+    color: white;
     padding: 10px 20px;
     border-radius: 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 9999;
-    animation: fadeInOut 0.5s ease-in-out;
+    animation: fadeInOut ease-in-out;
 }
 
 @keyframes fadeInOut {
@@ -132,3 +144,5 @@
         opacity: 0;
     }
 }
+
+/*   s u c c e s s  m e s s a g e   */

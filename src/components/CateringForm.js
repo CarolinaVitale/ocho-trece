@@ -26,16 +26,15 @@ export const CateringForm = () => {
         }
     };
 
+
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // Prepare the form data
-        const formData = new FormData(e.target);
         emailjs
             .sendForm(
                 'service_1e3wyxq',
                 'template_rlshlst',
-                formData, {
+                e.target, {
                 publicKey:
                     'IBMUF5E22fPm9zQxz',
             })
@@ -55,6 +54,7 @@ export const CateringForm = () => {
                     setZipPlaceholder('ZIP');
                     setDetailsPlaceholder('event description (brief description of your event)');
                     setHowPlaceholder('how did you hear about us');
+
                     setShowSuccessMessage(true);
                     setTimeout(() => {
                         setShowSuccessMessage(false);
@@ -66,9 +66,11 @@ export const CateringForm = () => {
             );
     };
 
+
     return (
         <div className='catering-form'>
             <h1>catering quote</h1>
+            <br />
             <div className="catering-container">
                 <form className="catering-form" onSubmit={sendEmail}>
                     <input
@@ -153,8 +155,8 @@ export const CateringForm = () => {
                 </form>
 
                 {showSuccessMessage && (
-                    <div className="success-message">
-                        Your message has been sent successfully!
+                    <div className="catering-success-message">
+                        thank you for contacting us regarding your event. our staff will gladly contact you shorty to finalize any details and provide you with a quote.
                     </div>
                 )}
             </div>

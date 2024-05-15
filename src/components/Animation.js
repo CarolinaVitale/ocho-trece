@@ -48,6 +48,7 @@ const ScrollAnimationComponent = ({ imageSrc, text, paragraph }) => {
                 >
                     <div className='text'>
                         <Button
+                            where='/catering'
                             className='btns'
                             buttonStyle='btn--outline'
                             buttonSize='btn--large'

@@ -14,6 +14,7 @@ function HeroSection() {
                 <h1>coming soon...</h1>
                 <div className='hero-btns'>
                     <Button
+                        where='/about'
                         className='btns'
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'
@@ -21,11 +22,12 @@ function HeroSection() {
                         about us
                     </Button>
                     <Button
+                        where='/catering'
                         className='btns'
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                     >
-                        make a reservation  <i className="fa-solid fa-utensils" />
+                        catering quote <i className="fa-solid fa-utensils" />
                     </Button>
                 </div>
             </div>

@@ -108,9 +108,9 @@
     font-family: 'Futura';
 }
 
-.footer-container a {
+.website-info a {
     text-decoration: none;
-        color: #C3C5C7;
+    color: #C3C5C7;
 }
 
 @media screen and (max-width: 820px) {
@@ -148,14 +148,15 @@
     text-align: center;
 }
 
-.created-by Link {
-    color: #797979;
-}
-
 .created {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     border-top: 1px solid #494949;
     width: 100%;
+}
+
+.created a {
+    text-decoration: none;
+    color: #797979;
 }

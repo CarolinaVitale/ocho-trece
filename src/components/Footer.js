@@ -83,7 +83,7 @@ function Footer() {
             
             <div className='created'>
                 <small className='created-by'> website by
-                    <Link to='https://carolavitale.com/' target='_blank'> carola vitale
+                    <Link className='created-by-link' to='https://carolavitale.com/' target='_blank'> Carola Vitale
                     </Link>
                 </small>
             </div>

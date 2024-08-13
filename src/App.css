@@ -29,7 +29,7 @@ nugget gold #CB952B
     padding: 0;
 }
 
-.menu-coming {
+/* .menu-coming {
     text-align: center;
     position: relative;
     margin-top: 5%;
@@ -43,9 +43,9 @@ nugget gold #CB952B
     text-shadow:
         3px 3px 5px rgba(0, 0, 0, 0.5),
         -2px -2px 2px rgba(255, 255, 255, 0.5);
-}
+} */
 
-.letters-menu {
+/* .letters-menu {
     margin-top: -10%;
     margin-bottom: -5%;
     padding: 10%;
@@ -63,7 +63,7 @@ nugget gold #CB952B
     .menu-coming {
         font-size: 50px;
     }
-}
+} */
 
 .menu-813 {
     background-color: white;

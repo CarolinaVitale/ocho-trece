@@ -3,7 +3,6 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Animation from '../Animation'
 import pic from '../../images/gif.gif'
-import AnimationTemplate from '../AnimationTemplate';
 
 function Home() {
   return (

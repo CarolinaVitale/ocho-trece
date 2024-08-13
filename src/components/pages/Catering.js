@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from '../Header';
 import pic from '../../images/carpaccio.JPG'
-import MenuForm from '../Menu'
+// import MenuForm from '../Menu'
 import CateringForm from '../CateringForm'
 
 
@@ -10,7 +10,7 @@ function Catering() {
         <>
             <Header tittle='catering' image={pic} />
             <div>
-                <MenuForm />
+                {/* <MenuForm /> */}
                 <CateringForm />
             </div>
         </>

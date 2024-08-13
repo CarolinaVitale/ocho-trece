@@ -1,30 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/logotype.png'
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
     const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
-
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
 
     const changeBackground = () => {
         if (window.scrollY >= 80) {
@@ -78,14 +62,13 @@ function Navbar() {
                         <li>
                             <Link
                                 to='/catering'
-                                className='nav-links-mobile'
+                                className='nav-links'
                                 onClick={closeMobileMenu}
                             >
                                 catering
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button where='/catering' children='catering' buttonStyle='btn--outline'></Button>}
                 </div>
             </nav>
         </>

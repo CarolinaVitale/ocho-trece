@@ -8,8 +8,8 @@
     align-items: center;
     overflow: hidden;
     z-index: 1;
-    top: -80px;
-    margin-bottom: -80px;
+    /* top: -80px;
+    margin-bottom: -80px; */
 }
 
 .header-img {
@@ -50,10 +50,11 @@
     }
 
     .header-container {
-        height: 100vh;
+        height: 60vh;
     }
 
     .header-img {
-        height: 100%;
+        width: 100%;
+        height: 60vh;
     }
 }

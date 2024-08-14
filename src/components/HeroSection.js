@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './HeroSection.css';
 import home from '../images/home.jpg'
 import logo from '../images/logo.png'
@@ -13,7 +13,7 @@ function HeroSection() {
                 <img className='home-img' src={home} alt='home' />
                 <h1>coming soon...</h1>
                 <div className='hero-btns'>
-                    <Button
+                    {/* <Button
                         where='/about'
                         className='btns'
                         buttonStyle='btn--outline'
@@ -28,7 +28,7 @@ function HeroSection() {
                         buttonSize='btn--large'
                     >
                         catering quote <i className="fa-solid fa-utensils" />
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
             <div>

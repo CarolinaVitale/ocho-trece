@@ -21,7 +21,7 @@ function ContactInfo() {
 
             >
                 <div className='contact-address'>
-                    <i class="fa-solid fa-location-dot fa-3x"></i>
+                    <i className="fa-solid fa-location-dot fa-3x"></i>
                     <h3>address</h3>
                     <a rel="noreferrer" target="_blank" href="https://maps.app.goo.gl/eXcAhXj6Hzz11rcB6">
                         <p>800w kennedy boulevard, tampa, fl. 33606</p>

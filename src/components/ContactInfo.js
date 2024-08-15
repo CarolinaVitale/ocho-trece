@@ -37,7 +37,7 @@ function ContactInfo() {
 
             >
                 <div className='contact-phone'>
-                    <i class="fa-solid fa-phone fa-3x"></i>
+                    <i className="fa-solid fa-phone fa-3x"></i>
                     <h3>phone</h3>
                     <a href="tel:+18133745363">
                         <p>813-374-5363</p>
@@ -53,7 +53,7 @@ function ContactInfo() {
 
             >
                 <div className='contact-mail'>
-                    <i class="fa-solid fa-envelope fa-3x"></i>
+                    <i className="fa-solid fa-envelope fa-3x"></i>
                     <h3>mail</h3>
                     <a href="mailto:info@ochotrece.restaurant?subject=Email%20Subject&body=Hi%20I'd%20like%20to%20find%20out%20more%20about">
                         <p>info@ochotrece.restaurant</p>

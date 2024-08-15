@@ -1,14 +1,15 @@
 import React from 'react';
 import { Header } from '../Header';
-import pic from '../../images/carpaccio.JPG'
-// import MenuForm from '../Menu'
-import CateringForm from '../CateringForm'
+import desktopImage from '../../images/carpaccio.JPG';
+import mobileImage from '../../images/carpaccio-mobile.JPG'
+// import MenuForm from '../Menu';
+import CateringForm from '../CateringForm';
 
 
 function Catering() {
     return (
         <>
-            <Header tittle='catering' image={pic} />
+            <Header tittle='catering' desktopImage={desktopImage} mobileImage={mobileImage} />
             <div>
                 {/* <MenuForm /> */}
                 <CateringForm />

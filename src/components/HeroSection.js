@@ -3,7 +3,7 @@ import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
 import mobileImage from '../images/pic-test.jpg'
-import desktopImage from '../images/home.jpg'
+// import desktopImage from '../images/home.jpg'
 import logo from '../images/logo.png'
 
 
@@ -13,6 +13,23 @@ function HeroSection() {
             <div className='hero-container'>
 
                 <img
+                    className='home-img'
+
+                    srcSet={`
+
+                    ${mobileImage} 1200w,
+
+                    `}
+
+                    src={mobileImage}
+
+                    sizes='100vw'
+
+                    alt='home'
+
+                />
+
+                {/* <img
                     className='home-img'
 
                     srcSet={`
@@ -27,7 +44,8 @@ function HeroSection() {
 
                     alt='home'
 
-                />
+                /> */}
+
 
 
                 <h1>coming soon...</h1>

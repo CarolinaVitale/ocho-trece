@@ -2,8 +2,7 @@ import React from 'react';
 import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
-import mobileImage from '../images/pic-test.jpg'
-// import desktopImage from '../images/home.jpg'
+import desktopImage from '../images/home.jpg'
 import logo from '../images/logo.png'
 
 
@@ -15,37 +14,11 @@ function HeroSection() {
                 <img
                     className='home-img'
 
-                    srcSet={`
-
-                    ${mobileImage} 1200w,
-
-                    `}
-
-                    src={mobileImage}
-
-                    sizes='100vw'
+                    src={desktopImage}
 
                     alt='home'
 
                 />
-
-                {/* <img
-                    className='home-img'
-
-                    srcSet={`
-
-                    ${mobileImage} 768w,
-
-                    ${desktopImage} 1200w
-
-                `}
-
-                    sizes='(max-width: 768px) 100vw, (min-width: 769px) 50vw'
-
-                    alt='home'
-
-                /> */}
-
 
 
                 <h1>coming soon...</h1>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
-import desktopImage from '../images/prueba.jpg'
+// import desktopImage from '../images/prueba.jpg'
 import logo from '../images/logo.png'
 
 
@@ -11,14 +11,14 @@ function HeroSection() {
         <>
             <div className='hero-container'>
 
-                <img
+                {/* <img
                     className='home-img'
                     srcSet={`${desktopImage} 4928w`}
                     sizes='100vw'
                     src={desktopImage}
                     style={{ width: '100%', height:'auto'}}
                     alt='home'
-                />
+                /> */}
 
 
                 <h1>coming soon...</h1>

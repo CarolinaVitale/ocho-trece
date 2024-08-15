@@ -13,11 +13,11 @@ function HeroSection() {
 
                 <img
                     className='home-img'
-
+                    srcSet={`${desktopImage} 4928w`}
+                    sizes='100vw'
                     src={desktopImage}
-
+                    style={{ width: '100%', height:'auto'}}
                     alt='home'
-
                 />
 
 

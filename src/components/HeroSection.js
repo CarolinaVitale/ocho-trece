@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
-import desktopImage from '../images/home.jpg'
+import desktopImage from '../images/prueba.jpg'
 import logo from '../images/logo.png'
 
 
